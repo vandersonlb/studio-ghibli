@@ -3,9 +3,9 @@
     <h1>{{ title }}</h1>
     <p>{{ description }}</p>
     <p>
-      <span>Director: </span> {{ director }} Hayao Miyazaki <br>
-      <span>Director: </span> {{ producer }}Isao Takahata <br>
-      <span>Release: </span> {{ release }} 1986 <br>
+      <span>Director: </span> {{ director }} <br>
+      <span>Producer: </span> {{ producer }} <br>
+      <span>Release: </span> {{ release }} <br>
       <span>Characters: </span>  {{ characters }}Pazu, Lusheeta Toel Ul Laputa, Dola, Romska Palo Ul Laputa, Uncle Pom <br>
     </p>
   </div>

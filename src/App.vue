@@ -8,6 +8,9 @@
         :key="index" 
         :title="film.title"
         :description="film.description"
+        :director="film.director"
+        :producer="film.producer"
+        :release="film.release"
       />
     </div>
   </div>
