@@ -7,6 +7,8 @@ Aplicação bem simples desenvolvida em Vue.js, que:
 - Lista os filmes do Studio Ghibli, buscando os dados na [Studio Ghibli API](https://ghibliapi.herokuapp.com/)
 - Filtra os filmes por título, diretor, produtor, data de lançamento ou personagem.
 
+> Veja rodando [aqui](https://vandersonlb.github.io/studio-ghibli/).
+
 ### Project setup
 ```
 npm install
