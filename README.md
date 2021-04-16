@@ -1,24 +1,31 @@
-# studio-ghibli
+<img src="https://github.com/vandersonlb/studio-ghibli/blob/master/src/assets/logo.png" />
 
-## Project setup
+# Ghibli App
+
+Aplicação bem simples desenvolvida em Vue.js, que:
+
+- Lista os filmes do Studio Ghibli, buscando os dados na [Studio Ghibli API](https://ghibliapi.herokuapp.com/)
+- Filtra os filmes por título, diretor, produtor, data de lançamento ou personagem.
+
+### Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 ```
 npm run lint
 ```
 
-### Customize configuration
+#### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

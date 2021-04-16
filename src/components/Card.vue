@@ -1,12 +1,13 @@
 <template>
   <div class="card">
     <h1>{{ title }}</h1>
-    <p>{{ description }}</p>
-    <p>
-      <span>Director: </span> {{ director }} <br>
-      <span>Producer: </span> {{ producer }} <br>
-      <span>Release: </span> {{ release }} <br>
-      <span>Characters: </span>  {{ characters }}Pazu, Lusheeta Toel Ul Laputa, Dola, Romska Palo Ul Laputa, Uncle Pom <br>
+    <p>{{ description }}
+      <ul>
+        <li><span>Director: </span> {{ director }} </li>
+        <li><span>Producer: </span> {{ producer }} </li>
+        <li><span>Release: </span> {{ release }} </li>
+        <li v-if="characters"><span >Characters: </span>  {{ characters }} </li>
+      </ul>
     </p>
   </div>
 </template>
@@ -28,28 +29,34 @@ export default {
 
   @include tablet-down {
     flex: 1 1 calc(50% - 2rem);
+    max-width: 50%;
   }
 
   @include desktop-up {
     flex: 1 1 calc(33% - 2rem);
+    max-width: 33%;
   }
 
   & h1 {
     text-align: center;
     padding: 1.5rem 2.5rem;
     background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
-    margin: 0 0 2rem 0;
+    margin: 0 0 1.7rem 0;
     font-size: 1.5rem;
     color: white;
     font-weight: 700;
   }
 
   & p {
-    padding: 0 2.5rem 2.5rem;
+    padding: 0 2.5rem 2rem;
     margin: 0;
     line-height: 1.6;
     text-align: left;
     color: $text-color;
+  }
+
+  & ul {
+    margin-top: 1rem;
   }
 
   & span {

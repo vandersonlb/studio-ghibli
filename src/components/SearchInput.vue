@@ -1,5 +1,5 @@
 <template>
-  <input type="search" class="container__input" :placeholder="placeholder" />
+  <input type="search" :placeholder="placeholder" />
 </template>
 
 <script>
