@@ -27,14 +27,18 @@ export default {
   overflow: hidden;
   transition: all 0.2s linear;
 
-  @include tablet-down {
+  @include phone-only {
+    flex: 1 1 100%;
+  }
+
+  @include tablet-only {
     flex: 1 1 calc(50% - 2rem);
     max-width: 50%;
   }
 
   @include desktop-up {
     flex: 1 1 calc(33% - 2rem);
-    max-width: 33%;
+    max-width: 33%
   }
 
   & h1 {

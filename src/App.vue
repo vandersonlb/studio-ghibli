@@ -81,7 +81,7 @@ export default {
 }
 
 .container {
-  width: 80%;
+  width: 95%;
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
