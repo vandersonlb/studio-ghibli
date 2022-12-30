@@ -11,7 +11,7 @@ Aplicação desenvolvida em Vue.js, consumindo a [Studio Ghibli API](https://git
 - Lista todo os filmes do Studio Ghibli.
 - Filtra os filmes por título, diretor, produtor, data de lançamento ou personagem.
 
-### ❌ Atualizações dez/2022
+### ❌ Atualização dez/2022
 
 Heroku passou a cobrar pela hospedagem e o autor tirou a API do ar.
 <br>
